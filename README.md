@@ -12,7 +12,7 @@ Given the vast geographical coverage and the high demand for medical supplies, K
 
 ## Project Overview
 
-![KEMSA supply chain](images\KEMSA_Supply_Chain_DFD.png)
+![KEMSA supply chain](./images/KEMSA_Supply_Chain_DFD.png)
 
 This project aims to optimize the supply chain operations at the **Kenya Medical Supplies Authority (KEMSA)** by leveraging machine learning techniques. The system will predict medical supply demands based on historical data, with the ultimate goal of reducing waste, improving delivery efficiency, and ensuring optimal distribution of medical supplies across various regions.
 
@@ -68,6 +68,8 @@ To use this project, follow the instructions for setting up the environment and 
    ```bash
    pip install -r requirements.txt
    ```
+
+## Contribution
 
 ---
 
