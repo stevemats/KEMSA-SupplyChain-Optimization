@@ -1,0 +1,97 @@
+Region,Month,Supply_Category,Demand_Quantity,Delivery_Time_Days,Stock_Level,Restock_Flag
+Nairobi,January,Medicine,120,5,300,0
+Nairobi,February,Medicine,140,4,250,0
+Nairobi,March,Medicine,150,3,200,1
+Nairobi,April,Medicine,160,4,180,1
+Nairobi,May,Medicine,170,3,160,1
+Nairobi,June,Medicine,180,5,140,1
+Nairobi,July,Medicine,200,4,120,1
+Nairobi,August,Medicine,220,5,100,1
+Nairobi,September,Medicine,240,3,80,1
+Nairobi,October,Medicine,260,4,70,1
+Nairobi,November,Medicine,280,3,50,1
+Nairobi,December,Medicine,300,5,30,1
+Nairobi,January,PPE,100,7,150,0
+Nairobi,February,PPE,120,6,130,1
+Nairobi,March,PPE,140,5,110,1
+Nairobi,April,PPE,160,4,90,1
+Nairobi,May,PPE,180,3,80,1
+Nairobi,June,PPE,200,5,60,1
+Nairobi,July,PPE,220,4,50,1
+Nairobi,August,PPE,240,5,40,1
+Nairobi,September,PPE,260,3,30,1
+Nairobi,October,PPE,280,4,20,1
+Nairobi,November,PPE,300,3,10,1
+Nairobi,December,PPE,320,5,5,1
+Nairobi,January,Surgical Equipment,150,5,400,0
+Nairobi,February,Surgical Equipment,170,4,350,0
+Nairobi,March,Surgical Equipment,180,3,300,1
+Nairobi,April,Surgical Equipment,200,4,280,1
+Nairobi,May,Surgical Equipment,220,3,250,1
+Nairobi,June,Surgical Equipment,240,5,220,1
+Nairobi,July,Surgical Equipment,260,4,200,1
+Nairobi,August,Surgical Equipment,280,5,180,1
+Nairobi,September,Surgical Equipment,300,3,150,1
+Nairobi,October,Surgical Equipment,320,4,120,1
+Nairobi,November,Surgical Equipment,340,3,100,1
+Nairobi,December,Surgical Equipment,360,5,80,1
+Mombasa,January,Medicine,100,7,250,0
+Mombasa,February,Medicine,120,6,220,0
+Mombasa,March,Medicine,140,5,180,1
+Mombasa,April,Medicine,160,6,160,1
+Mombasa,May,Medicine,180,5,140,1
+Mombasa,June,Medicine,200,7,120,1
+Mombasa,July,Medicine,220,6,100,1
+Mombasa,August,Medicine,240,5,90,1
+Mombasa,September,Medicine,260,6,80,1
+Mombasa,October,Medicine,280,7,60,1
+Mombasa,November,Medicine,300,6,50,1
+Mombasa,December,Medicine,320,7,30,1
+Mombasa,January,PPE,150,7,180,0
+Mombasa,February,PPE,170,6,150,0
+Mombasa,March,PPE,190,5,130,1
+Mombasa,April,PPE,210,6,100,1
+Mombasa,May,PPE,230,5,80,1
+Mombasa,June,PPE,250,7,70,1
+Mombasa,July,PPE,270,6,60,1
+Mombasa,August,PPE,290,5,50,1
+Mombasa,September,PPE,310,6,40,1
+Mombasa,October,PPE,330,7,30,1
+Mombasa,November,PPE,350,6,20,1
+Mombasa,December,PPE,370,7,10,1
+Kisumu,January,Surgical Equipment,200,4,400,0
+Kisumu,February,Surgical Equipment,220,3,350,0
+Kisumu,March,Surgical Equipment,240,2,300,1
+Kisumu,April,Surgical Equipment,260,3,280,1
+Kisumu,May,Surgical Equipment,280,4,250,1
+Kisumu,June,Surgical Equipment,300,5,220,1
+Kisumu,July,Surgical Equipment,320,4,200,1
+Kisumu,August,Surgical Equipment,340,3,180,1
+Kisumu,September,Surgical Equipment,360,2,150,1
+Kisumu,October,Surgical Equipment,380,3,120,1
+Kisumu,November,Surgical Equipment,400,2,100,1
+Kisumu,December,Surgical Equipment,420,3,80,1
+Eldoret,January,Medicine,180,6,250,0
+Eldoret,February,Medicine,200,5,220,0
+Eldoret,March,Medicine,210,4,200,1
+Eldoret,April,Medicine,230,5,180,1
+Eldoret,May,Medicine,250,6,150,1
+Eldoret,June,270,7,130,1
+Eldoret,July,290,5,110,1
+Eldoret,August,310,6,90,1
+Eldoret,September,330,7,80,1
+Eldoret,October,350,6,70,1
+Eldoret,November,370,5,60,1
+Eldoret,December,390,6,50,1
+Nakuru,January,PPE,90,7,130,0
+Nakuru,February,PPE,100,6,110,1
+Nakuru,March,PPE,120,5,90,1
+Nakuru,April,PPE,140,6,80,1
+Nakuru,May,PPE,160,7,60,1
+Nakuru,June,PPE,180,6,50,1
+Nakuru,July,PPE,200,5,40,1
+Nakuru,August,PPE,220,7,30,1
+Nakuru,September,PPE,240,6,20,1
+Nakuru,October,PPE,260,7,10,1
+Nakuru,November,PPE,280,6,5,1
+Nakuru,December,PPE,300,7,2,1
