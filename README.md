@@ -112,6 +112,26 @@ Baringo,February,Medicine,140,4,250,0
 
 ---
 
+### Model Evaluation Metrics
+
+```bash
+Model Accuracy: 100.00%
+
+Confusion Matrix:
+[[ 6  0]
+ [ 0 14]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00         6
+         1.0       1.00      1.00      1.00        14
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+```
+
 ---
 
 DISCLAIMER!
