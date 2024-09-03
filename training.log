@@ -24,3 +24,29 @@ weighted avg       1.00      1.00      1.00        20
 
 2024-09-03 12:44:10,529:INFO:Evaluation report saved to 'results/evaluation_report.txt'.
 2024-09-03 12:44:10,790:INFO:Model saved to models/supply_chain_model.pkl
+2024-09-03 13:16:10,335:INFO:Loading preprocessed training and testing data.
+2024-09-03 13:16:10,348:INFO:Standardizing the features for improved model performance.
+2024-09-03 13:16:10,357:INFO:Feature scaler saved as 'models/scaler.pkl'.
+2024-09-03 13:16:10,357:INFO:Training the RandomForestClassifier model.
+2024-09-03 13:16:10,357:INFO:Performing hyperparameter tuning using GridSearchCV.
+2024-09-03 13:16:32,649:INFO:Best hyperparameters found: {'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 300}
+2024-09-03 13:16:32,649:INFO:Model training completed.
+2024-09-03 13:16:32,650:INFO:Evaluating the trained model.
+2024-09-03 13:16:32,687:INFO:Model Accuracy: 100.00%
+2024-09-03 13:16:32,688:INFO:
+Confusion Matrix:
+[[ 6  0]
+ [ 0 14]]
+2024-09-03 13:16:32,688:INFO:
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00         6
+         1.0       1.00      1.00      1.00        14
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2024-09-03 13:16:32,695:INFO:Evaluation report saved to 'results/evaluation_report.txt'.
+2024-09-03 13:16:32,952:INFO:Model saved to models/supply_chain_model.pkl

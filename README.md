@@ -1,59 +1,59 @@
-# Supply Chain Optimization using Machine Learning
+# Supply Chain Optimization Using Machine Learning
 
-Case Study: **KEMSA**
+**Case Study: Kenya Medical Supplies Authority (KEMSA)**
 
-![ML supply chain optimization](https://live.staticflickr.com/1936/44103687154_04281ced4d_b.jpg)
+![ML Supply Chain Optimization](https://live.staticflickr.com/1936/44103687154_04281ced4d_b.jpg)
 
-The **Kenya Medical Supplies Authority (KEMSA)** is a specialized government agency responsible for procuring, storing, and distributing medical supplies and pharmaceuticals to public health facilities across Kenya. As the backbone of Kenya’s healthcare supply chain, KEMSA ensures that essential medicines, medical equipment, and health commodities reach every corner of the country efficiently and in a timely manner. The organization plays a critical role in maintaining the integrity of the healthcare supply chain, from managing complex logistics networks to ensuring the availability of critical health supplies during emergencies.
+The **Kenya Medical Supplies Authority (KEMSA)** is a pivotal government agency tasked with the procurement, storage, and distribution of medical supplies and pharmaceuticals across public health facilities in Kenya. As a cornerstone of Kenya’s healthcare supply chain, KEMSA ensures the timely and efficient delivery of essential medicines, medical equipment, and health commodities, playing a crucial role in maintaining healthcare integrity and readiness across the country.
 
-Given the vast geographical coverage and the high demand for medical supplies, KEMSA’s supply chain faces numerous challenges, including fluctuating demand, logistical delays, and the risk of overstocking or understocking in regional facilities. By leveraging data-driven approaches and modern technology like machine learning, there is significant potential to optimize these processes, leading to more efficient distribution, minimized waste, and improved healthcare outcomes.
+Faced with extensive geographical coverage and high demand, KEMSA’s supply chain encounters various challenges, including fluctuating demand, logistical inefficiencies, and risks of stock imbalances. This project aims to leverage advanced data-driven techniques and machine learning to enhance these processes, striving for more efficient distribution, reduced waste, and improved healthcare outcomes.
 
 ---
 
 ## Project Overview
 
-![KEMSA supply chain](./images/KEMSA_Supply_Chain_DFD.png)
+![KEMSA Supply Chain](./images/KEMSA_Supply_Chain_DFD.png)
 
-This project aims to optimize the supply chain operations at the **Kenya Medical Supplies Authority (KEMSA)** by leveraging machine learning techniques. The system will predict medical supply demands based on historical data, with the ultimate goal of reducing waste, improving delivery efficiency, and ensuring optimal distribution of medical supplies across various regions.
+This project focuses on optimizing supply chain operations at **Kenya Medical Supplies Authority (KEMSA)** through machine learning methodologies. The goal is to forecast medical supply demands using historical data, thereby improving distribution efficiency, minimizing waste, and ensuring optimal medical supply availability across various regions.
 
-## Key Objectives
+### Key Objectives
 
-- **Predictive Analytics**: Develop a machine learning model to forecast medical supply needs for different regions in Kenya, based on historical consumption and distribution patterns.
-- **Delivery Insights**: Provide insights into delivery times and optimal replenishment schedules, helping to streamline logistics and reduce delays.
-- **Stock Optimization**: Enhance stock management by predicting demand, reducing overstock or understock scenarios, and ensuring timely replenishment of essential medical supplies.
+- **Predictive Analytics**: Develop machine learning models to forecast medical supply requirements by region, utilizing historical consumption and distribution data.
+- **Delivery Insights**: Generate insights on delivery timings and optimal restocking schedules to streamline logistics and minimize delays.
+- **Stock Optimization**: Enhance stock management by predicting demand accurately, reducing both overstock and understock scenarios, and ensuring timely restocking of essential supplies.
 
-## Features
+### Features
 
-- **Demand Forecasting**: Predict medical supply demand by region using machine learning algorithms.
-- **Supply Chain Insights**: Analyze delivery times and provide recommendations to improve stock replenishment and reduce logistical delays.
-- **Data-Driven Decisions**: Leverage historical data to make informed decisions regarding the distribution of medical supplies.
+- **Demand Forecasting**: Utilize machine learning algorithms to predict medical supply demand for different regions.
+- **Supply Chain Insights**: Analyze delivery metrics and recommend strategies to optimize stock replenishment and reduce logistical delays.
+- **Data-Driven Decisions**: Employ historical data to inform strategic decisions regarding medical supply distribution.
 
-## Tech Layout: Prerequisitess
+## Tech Layout: Prerequisites
 
-- **Python**: The core language for data processing and machine learning.
-- **Scikit-learn**: For building and evaluating predictive models.
-- **TensorFlow/Keras**: For developing deep learning models, if necessary, for complex data patterns.
-- **Pandas & NumPy**: For data manipulation and analysis.
-- **Matplotlib/Seaborn**: For data visualization and reporting.
+- **Python**: The primary programming language for data processing and machine learning tasks.
+- **Scikit-learn**: For developing and evaluating predictive models.
+- **TensorFlow/Keras**: Optional libraries for creating advanced deep learning models for complex data patterns.
+- **Pandas & NumPy**: Essential libraries for data manipulation and analysis.
+- **Matplotlib/Seaborn**: For creating visualizations and reports.
 
-> All required libraries will be available under `requirements.txt` file(refer to usage section) as the projects progresses.
+> All required libraries are listed in the `requirements.txt` file (refer to the Installation section for setup).
 
 ## Project Structure
 
-1. **Data Collection & Preparation**: Gather historical data on medical supply distribution, demand patterns, and regional factors.
-2. **Data Cleaning & Exploration**: Clean and explore the dataset to gain insights and ensure it’s ready for modeling.
-3. **Model Development**: Build predictive models using machine learning to forecast supply demands.
-4. **Model Evaluation**: Test and evaluate model performance to ensure accurate predictions.
-5. **Insights & Optimization**: Generate reports and visualizations to provide actionable insights for stock replenishment and delivery improvements.
-6. **Deployment**: Package the model for deployment and integration.
+1. **Data Collection & Preparation**: Acquire historical data on medical supply distribution, demand patterns, and regional variables.
+2. **Data Cleaning & Exploration**: Clean and analyze the dataset to prepare it for modeling.
+3. **Model Development**: Construct machine learning models to forecast supply demands.
+4. **Model Evaluation**: Assess model performance to ensure accuracy and reliability.
+5. **Insights & Optimization**: Produce reports and visualizations for actionable insights into stock management and delivery improvements.
+6. **Deployment**: Package the model for practical deployment and integration.
 
 ## Usage
 
-To use this project, follow the instructions for setting up the environment and running the models.
+To utilize this project, follow these steps to set up the environment and execute the models.
 
-## Installation
+### Installation
 
-1. Clone this repository:
+1. Clone this repo:
    ```bash
    git clone https://github.com/your-username/KEMSA-SupplyChain-Optimization.git
    ```
@@ -69,17 +69,15 @@ To use this project, follow the instructions for setting up the environment and 
    pip install -r requirements.txt
    ```
 
-## Contribution
-
 ---
 
-<i>DFD generation (Not a must for the project)</i>:
+<i>DFD generation (Optional)</i>:
 
 ```bash
 py dfdGen.py
 ```
 
-Output will be saved in the images section unless destination is altered to a different location
+Output will be saved in the images section unless defined otherwise
 
 ```python
 ...
@@ -89,7 +87,7 @@ if not os.path.exists('images'):
 dfd.render('images/KEMSA_Supply_Chain_DFD', format='png', cleanup=False)
 ```
 
-<i>CSV Data</i>
+<i>CSV Data Sample Used</i>
 
 ```csv
 Region,Month,Supply_Category,Demand_Quantity,Delivery_Time_Days,Stock_Level,Restock_Flag
@@ -99,8 +97,8 @@ Baringo,February,Medicine,140,4,250,0
 
 ## Headers:
 
-1. Region - The geographic location where the medical supplies are distributed. This includes major regions such as Nairobi, Mombasa, Kisumu, Eldoret, and Nakuru. Each region represents a distinct market with unique supply chain needs and logistics.
-2. Month - Refers to the month of the year in which the supply data was recorded. The dataset spans January to December, allowing us to track monthly variations in demand, delivery times, and stock levels over a full year.
+1. Region - Geographic area for distribution. Includes major regions like Nairobi, Mombasa, Kisumu, Eldoret, and Nakuru.
+2. Month - Month of data recording, covering January through December to track seasonal variations.
 3. Supply_Category - The type of medical supply being tracked. Categories include:
    - Medicine: General medication needed in healthcare facilities.
    - PPE: Personal protective equipment such as gloves, masks, etc.
@@ -108,7 +106,12 @@ Baringo,February,Medicine,140,4,250,0
 
 - Different categories have unique demand patterns and logistical requirements.
 
-4. Demand_Quantity -
+4. Demand_Quantity - Quantity of supplies required.
+5. Restock_Flag - A binary indicator (0 or 1) used to signal whether restocking is needed:
+   0: No restock required (stock level is sufficient for the near future).
+   1: Restocking is required due to low stock levels o increased demand.
+6. Delivery_Time_Days - The number of days taken for the supplies to be delivered to the healthcare facilities. Delivery times can vary due to logistics, road conditions, or inventory issues, and can range from 2 to 7 days in this dataset.
+7. Stock_Level - The number of items left in stock after the demand has been met for that region and month. This helps in tracking stock consumption and is critical for understanding when restocking is needed. A higher stock level means the region has enough supplies, while a lower stock level indicates potential shortages.
 
 ---
 
@@ -131,6 +134,10 @@ Classification Report:
    macro avg       1.00      1.00      1.00        20
 weighted avg       1.00      1.00      1.00        20
 ```
+
+![Confusion matrix](./images/reports/confusion_matrix.png)
+
+![Feature importance](./images/reports/Featyre%20Importance.png)
 
 ---
 
