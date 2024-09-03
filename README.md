@@ -89,10 +89,31 @@ if not os.path.exists('images'):
 dfd.render('images/KEMSA_Supply_Chain_DFD', format='png', cleanup=False)
 ```
 
+<i>CSV Data</i>
+
+```csv
+Region,Month,Supply_Category,Demand_Quantity,Delivery_Time_Days,Stock_Level,Restock_Flag
+Nairobi,January,Medicine,120,5,300,0
+Baringo,February,Medicine,140,4,250,0
+```
+
+## Headers:
+
+1. Region - The geographic location where the medical supplies are distributed. This includes major regions such as Nairobi, Mombasa, Kisumu, Eldoret, and Nakuru. Each region represents a distinct market with unique supply chain needs and logistics.
+2. Month - Refers to the month of the year in which the supply data was recorded. The dataset spans January to December, allowing us to track monthly variations in demand, delivery times, and stock levels over a full year.
+3. Supply_Category - The type of medical supply being tracked. Categories include:
+   - Medicine: General medication needed in healthcare facilities.
+   - PPE: Personal protective equipment such as gloves, masks, etc.
+   - Surgical Equipment: Specialized medical tools and equipment used in surgeries.
+
+- Different categories have unique demand patterns and logistical requirements.
+
+4. Demand_Quantity -
+
 ---
 
 ---
 
 DISCLAIMER!
 
-> This project is built for educational purposes and may require further modifications before being used in real-world scenarios..
+> This project is built for educational purposes and may require further modifications before being used in real-world scenarios.
