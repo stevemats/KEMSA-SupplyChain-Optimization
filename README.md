@@ -4,66 +4,33 @@
 
 ![ML Supply Chain Optimization](https://live.staticflickr.com/1936/44103687154_04281ced4d_b.jpg)
 
-The **Kenya Medical Supplies Authority (KEMSA)** is a pivotal government agency tasked with the procurement, storage, and distribution of medical supplies and pharmaceuticals across public health facilities in Kenya. As a cornerstone of Kenya’s healthcare supply chain, KEMSA ensures the timely and efficient delivery of essential medicines, medical equipment, and health commodities, playing a crucial role in maintaining healthcare integrity and readiness across the country.
-
-Faced with extensive geographical coverage and high demand, KEMSA’s supply chain encounters various challenges, including fluctuating demand, logistical inefficiencies, and risks of stock imbalances. This project aims to leverage advanced data-driven techniques and machine learning to enhance these processes, striving for more efficient distribution, reduced waste, and improved healthcare outcomes.
-
----
-
-## Project Overview
-
-![KEMSA Supply Chain](./images/KEMSA_Supply_Chain_DFD.png)
-
 This project focuses on optimizing supply chain operations at **Kenya Medical Supplies Authority (KEMSA)** through machine learning methodologies. The goal is to forecast medical supply demands using historical data, thereby improving distribution efficiency, minimizing waste, and ensuring optimal medical supply availability across various regions.
-
-### Key Objectives
-
-- **Predictive Analytics**: Develop machine learning models to forecast medical supply requirements by region, utilizing historical consumption and distribution data.
-- **Delivery Insights**: Generate insights on delivery timings and optimal restocking schedules to streamline logistics and minimize delays.
-- **Stock Optimization**: Enhance stock management by predicting demand accurately, reducing both overstock and understock scenarios, and ensuring timely restocking of essential supplies.
 
 ### Features
 
-- **Demand Forecasting**: Utilize machine learning algorithms to predict medical supply demand for different regions.
-- **Supply Chain Insights**: Analyze delivery metrics and recommend strategies to optimize stock replenishment and reduce logistical delays.
-- **Data-Driven Decisions**: Employ historical data to inform strategic decisions regarding medical supply distribution.
-
-## Tech Layout: Prerequisites
-
-- **Python**: The primary programming language for data processing and machine learning tasks.
-- **Scikit-learn**: For developing and evaluating predictive models.
-- **TensorFlow/Keras**: Optional libraries for creating advanced deep learning models for complex data patterns.
-- **Pandas & NumPy**: Essential libraries for data manipulation and analysis.
-- **Matplotlib/Seaborn**: For creating visualizations and reports.
-
-> All required libraries are listed in the `requirements.txt` file (refer to the Installation section for setup).
-
-## Project Structure
-
-1. **Data Collection & Preparation**: Acquire historical data on medical supply distribution, demand patterns, and regional variables.
-2. **Data Cleaning & Exploration**: Clean and analyze the dataset to prepare it for modeling.
-3. **Model Development**: Construct machine learning models to forecast supply demands.
-4. **Model Evaluation**: Assess model performance to ensure accuracy and reliability.
-5. **Insights & Optimization**: Produce reports and visualizations for actionable insights into stock management and delivery improvements.
-6. **Deployment**: Package the model for practical deployment and integration.
+- Demand Forecasting
+- Supply Chain Insights
+- Data-Driven Decisions
 
 ## Usage
 
-To utilize this project, follow these steps to set up the environment and execute the models.
+To utilize this project, follow these steps to set up the environment and execute the models:
 
 ### Installation
 
 1. Clone this repo:
+
    ```bash
-   git clone https://github.com/your-username/KEMSA-SupplyChain-Optimization.git
+   git clone https://github.com/stevemats/KEMSA-SupplyChain-Optimization.git
    ```
-2. Navigate to the project directory:
+
+2. Navigate to the project folder:
 
    ```bash
    cd KEMSA-SupplyChain-Optimization
    ```
 
-3. Install the required Python libraries:
+3. Install the required project libraries:
 
    ```bash
    pip install -r requirements.txt
@@ -71,7 +38,7 @@ To utilize this project, follow these steps to set up the environment and execut
 
 ---
 
-<i>DFD generation (Optional)</i>:
+<i>Data Flow Diagram (DFD) generation (Optional)</i>:
 
 ```bash
 py dfdGen.py
